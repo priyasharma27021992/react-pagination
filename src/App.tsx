@@ -1,5 +1,7 @@
 import './App.css';
-import BlogPage from './client-side-pagination/BlogPage';
+import BlogPage from './server-side-pagination/BlogPageWithReactQuery';
+// import BlogPage from './server-side-pagination/BlogPage';
+// import BlogPage from './client-side-pagination/BlogPage';
 
 function App() {
 	return (
