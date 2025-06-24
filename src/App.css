@@ -33,10 +33,23 @@
   }
 }
 
-.card {
-  padding: 2em;
+.post-list{
+  text-align: left;
 }
 
-.read-the-docs {
-  color: #888;
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pagination .active{
+  text-decoration: underline;
+  color: blue;
+}
+
+.pagination button{
+  all: unset;
+  cursor: pointer;
 }
